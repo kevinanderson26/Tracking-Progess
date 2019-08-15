@@ -10,7 +10,7 @@ pack(packages)
 rm(pack, packages)
 
 #load raw data
-source("sf processing.R")
+source("Scripts/Land Consumption/Land Use/sf processing.R")
 
 #graph 1A: line graphs of total developed acres for whole region, subregions, counties, and planning areas
 scaling_factor_acres <- 1000
@@ -121,5 +121,5 @@ graph_2 <- left_join(graph_2_region, graph_2_subregion, by = "year") %>%
 rm(graph_2_region, graph_2_subregion, graph_2_pa, graph_2_county)
 
 #write csvs
-write_csv(graph_1, "../Processed Data/land consumption graph_1.csv")
-write_csv(graph_2, "../Processed Data/land consumption graph_2.csv")
+write_csv(graph_1, "Outputs/Land Consumption/land consumption graph_1.csv")
+write_csv(graph_2, "Outputs/Land Consumption/land consumption graph_2.csv")

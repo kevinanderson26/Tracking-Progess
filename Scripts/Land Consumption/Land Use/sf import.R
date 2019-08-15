@@ -12,35 +12,35 @@ rm(pack, packages)
 #load yearly files for 1990, 2000, 2005, 2010, 2015
 
 landuse_2015_sf <- 
-  st_read("../Data/Shapefiles/DVRPC_LandUse_2015/2015_Land_use.shp") %>%
+  st_read("Raw Data/Land Consumption/Land Use Shapefiles/DVRPC_LandUse_2015/2015_Land_use.shp") %>%
   select(lu_code = LU_TYPE, lu_name = LU_LABEL) %>%
   mutate(year = 2015,
          lu_code = as.character(lu_code),
          lu_name = as.character(lu_name))
 
 landuse_2010_sf <- 
-  st_read("../Data/Shapefiles/DVRPC_LandUse_2010/2010_Land_use.shp") %>%
+  st_read("Raw Data/Land Consumption/Land Use Shapefiles/DVRPC_LandUse_2010/2010_Land_use.shp") %>%
   select(lu_code = LU_TYPE, lu_name = LU_LABEL) %>%
   mutate(year = 2010,
          lu_code = as.character(lu_code),
          lu_name = as.character(lu_name))
 
 landuse_2005_sf <- 
-  st_read("../Data/Shapefiles/DVRPC_LandUse_2005/2005_Land_use.shp") %>%
+  st_read("Raw Data/Land Consumption/Land Use Shapefiles/DVRPC_LandUse_2005/2005_Land_use.shp") %>%
   select(lu_code = LU_TYPE, lu_name = LU_LABEL) %>%
   mutate(year = 2005,
          lu_code = as.character(lu_code),
          lu_name = as.character(lu_name))
 
 landuse_2000_sf <- 
-  st_read("../Data/Shapefiles/DVRPC_LandUse_2000/2000_Land_use.shp") %>%
+  st_read("Raw Data/Land Consumption/Land Use Shapefiles/DVRPC_LandUse_2000/2000_Land_use.shp") %>%
   select(lu_code = LANDUSE00, lu_name = DESCRIPTIO) %>%
   mutate(year = 2000,
          lu_code = as.character(lu_code),
          lu_name = as.character(lu_name))
 
 landuse_1990_sf <- 
-  st_read("../Data/Shapefiles/DVRPC_LandUse_1990.gdb", 
+  st_read("Raw Data/Land Consumption/Land Use Shapefiles/DVRPC_LandUse_1990.gdb", 
           layer = "ALL_LU_90") %>%
   select(lu_code = LANDUSE, lu_name = DESCRIPTIO) %>%
   mutate(year = 1990,
@@ -50,23 +50,23 @@ landuse_1990_sf <-
 
 #load individual county files for 1995 and merge
 
-landuse_1995_bucks_sf <- st_read("../Data/Shapefiles/DVRPC_LandUse_1995.gdb", layer = "Bucks") %>%
+landuse_1995_bucks_sf <- st_read("Raw Data/Land Consumption/Land Use Shapefiles/DVRPC_LandUse_1995.gdb", layer = "Bucks") %>%
   select(lu_code = LANDUSE, lu_name = DESCRIPTIO)
-landuse_1995_chester_sf <- st_read("../Data/Shapefiles/DVRPC_LandUse_1995.gdb", layer = "Chester") %>%
+landuse_1995_chester_sf <- st_read("Raw Data/Land Consumption/Land Use Shapefiles/DVRPC_LandUse_1995.gdb", layer = "Chester") %>%
   select(lu_code = LANDUSE, lu_name = DESCRIPTIO)
-landuse_1995_delaware_sf <- st_read("../Data/Shapefiles/DVRPC_LandUse_1995.gdb", layer = "Delaware") %>%
+landuse_1995_delaware_sf <- st_read("Raw Data/Land Consumption/Land Use Shapefiles/DVRPC_LandUse_1995.gdb", layer = "Delaware") %>%
   select(lu_code = LANDUSE, lu_name = DESCRIPTIO)
-landuse_1995_montgomery_sf <- st_read("../Data/Shapefiles/DVRPC_LandUse_1995.gdb", layer = "Montgomery") %>%
+landuse_1995_montgomery_sf <- st_read("Raw Data/Land Consumption/Land Use Shapefiles/DVRPC_LandUse_1995.gdb", layer = "Montgomery") %>%
   select(lu_code = LANDUSE, lu_name = DESCRIPTIO)
-landuse_1995_philadelphia_sf <- st_read("../Data/Shapefiles/DVRPC_LandUse_1995.gdb", layer = "Philadelphia") %>%
+landuse_1995_philadelphia_sf <- st_read("Raw Data/Land Consumption/Land Use Shapefiles/DVRPC_LandUse_1995.gdb", layer = "Philadelphia") %>%
   select(lu_code = LANDUSE, lu_name = DESCRIPTIO)
-landuse_1995_burlington_sf <- st_read("../Data/Shapefiles/DVRPC_LandUse_1995.gdb", layer = "Burlington") %>%
+landuse_1995_burlington_sf <- st_read("Raw Data/Land Consumption/Land Use Shapefiles/DVRPC_LandUse_1995.gdb", layer = "Burlington") %>%
   select(lu_code = LANDUSE, lu_name = CATEGORY)
-landuse_1995_camden_sf <- st_read("../Data/Shapefiles/DVRPC_LandUse_1995.gdb", layer = "Camden") %>%
+landuse_1995_camden_sf <- st_read("Raw Data/Land Consumption/Land Use Shapefiles/DVRPC_LandUse_1995.gdb", layer = "Camden") %>%
   select(lu_code = LANDUSE, lu_name = DESCRIPTIO)
-landuse_1995_gloucester_sf <- st_read("../Data/Shapefiles/DVRPC_LandUse_1995.gdb", layer = "Gloucester") %>%
+landuse_1995_gloucester_sf <- st_read("Raw Data/Land Consumption/Land Use Shapefiles/DVRPC_LandUse_1995.gdb", layer = "Gloucester") %>%
   select(lu_code = LANDUSE, lu_name = DESCRIPTIO)
-landuse_1995_mercer_sf <- st_read("../Data/Shapefiles/DVRPC_LandUse_1995.gdb", layer = "Mercer") %>%
+landuse_1995_mercer_sf <- st_read("Raw Data/Land Consumption/Land Use Shapefiles/DVRPC_LandUse_1995.gdb", layer = "Mercer") %>%
   select(lu_code = LANDUSE, lu_name = DESCRIPTIO)
 
 landuse_1995_sf <- 
@@ -89,7 +89,7 @@ rm(landuse_1995_bucks_sf, landuse_1995_chester_sf, landuse_1995_delaware_sf,
 landuse_1990_sf$lu_code <- str_pad(landuse_1990_sf$lu_code, 5, pad = "0", side = "right")
 landuse_1995_sf$lu_code <- str_pad(landuse_1995_sf$lu_code, 5, pad = "0", side = "right")
 
-landuse_1990_sf$lu_code %<>%
+landuse_1990_sf %<>%
   mutate(lu_code = case_when(lu_code == "04020" ~ "02009",
                              lu_code == "04030" ~ "03009",
                              lu_code == "04040" ~ "04009",
@@ -102,7 +102,7 @@ landuse_1990_sf$lu_code %<>%
                              lu_code == "04110" ~ "11009",
                              TRUE ~ lu_code))
 
-landuse_1995_sf$lu_code %<>%
+landuse_1995_sf %<>%
   mutate(lu_code = case_when(lu_code == "04020" ~ "02009",
                              lu_code == "04030" ~ "03009",
                              lu_code == "04040" ~ "04009",
@@ -134,12 +134,12 @@ landuse %<>% mutate(lu_name = as.character(lu_name),
 
 #import planning area/municipal boundary shapefile
 planning_areas <- 
-  st_read(dsn = "../Data/Shapefiles/DVRPC_Connections_2045_Planning_Areas/DVRPC_Connections_2045_Planning_Areas.shp") %>%
+  st_read(dsn = "Raw Data/Land Consumption/Land Use Shapefiles/DVRPC_Connections_2045_Planning_Areas/DVRPC_Connections_2045_Planning_Areas.shp") %>%
   select(municipality = MUN_NAME, county = CO_NAME, geo_id = GEOID, planning_area = PA_2045)
 
 
 #import population estimates and add county and subregion fields field
-pop_est <- read_csv("../Data/population estimates.csv") %>%
+pop_est <- read_csv("Raw Data/Land Consumption/population estimates.csv") %>%
   mutate(county = case_when(stCode == 34 & coCode == "005" ~ "Burlington",
                             stCode == 34 & coCode == "007" ~ "Camden",
                             stCode == 34 & coCode == "015" ~ "Mercer",
@@ -163,7 +163,7 @@ pop_pa <- pop_est %>% group_by(year, planningArea) %>% summarize(pop = sum(popul
 pop_county <- pop_est %>% group_by(year, county) %>% summarize(pop = sum(population))
 
 #import 1995 population data and add to population data frames
-pop_1995 <- read_csv("../Data/1995 Population.csv")
+pop_1995 <- read_csv("Raw Data/Land Consumption/1995 Population.csv")
 
 pop_1995_region <- pop_1995 %>% filter(Geo_Type == "Region") %>%
   mutate(year = 1995) %>%

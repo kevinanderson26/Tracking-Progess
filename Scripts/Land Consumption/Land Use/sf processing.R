@@ -10,7 +10,7 @@ pack(packages)
 rm(pack, packages)
 
 #import data
-source("sf import.R")
+source("Scripts/Land Consumption/Land Use/sf import.R")
 
 #intersect land use and planning area layer (This is VERY SLOW. Took 23 minutes on the intern computer)
 landuse_pa <- st_intersection(st_make_valid(landuse), planning_areas)
