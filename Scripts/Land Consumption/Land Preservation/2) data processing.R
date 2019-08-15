@@ -11,7 +11,7 @@ rm(pack, packages)
 options(scipen=999)
 
 #import data
-source("data import.R")
+source("Scripts/Land Consumption/Land Preservation/1) data import.R")
 
 #intersect preservation layers with planning areas layer
 pa_intersect <- function(year, geo_layer){

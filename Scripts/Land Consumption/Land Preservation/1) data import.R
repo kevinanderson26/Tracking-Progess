@@ -12,10 +12,10 @@ options(scipen=999)
 
 #import planning area and county boundary layers
 
-planning_areas <- st_read(dsn = "../Data/DVRPC_Connections_2045_Planning_Areas/DVRPC_Connections_2045_Planning_Areas.shp") %>% 
+planning_areas <- st_read(dsn = "Raw Data/Land Consumption/DVRPC_Connections_2045_Planning_Areas/DVRPC_Connections_2045_Planning_Areas.shp") %>% 
   select(municipality = MUN_NAME, county = CO_NAME, geo_id = GEOID, planning_area = PA_2045)
 
-counties <- st_read(dsn = "../Data/DVRPC_County_Boundaries/DVRPC_County_Boundaries.shp") %>%
+counties <- st_read(dsn = "Raw Data/Land Consumption/DVRPC_County_Boundaries/DVRPC_County_Boundaries.shp") %>%
   select(county = CO_NAME)
 
 #create subregion layer
@@ -40,26 +40,26 @@ rm(pa_counties, nj_counties, pa_sub, nj_sub, philly_sub)
 
 #import preservation data and match CRS to planning areas
 
-pres_2004 <- st_read(dsn = "../Data/ProtectedOpenSpace.gdb", 
+pres_2004 <- st_read(dsn = "Raw Data/Land Consumption/ProtectedOpenSpace.gdb", 
                      layer = "DVRPC_ProtectedLands_04") %>%
              st_transform(crs = st_crs(planning_areas)) %>%
              st_make_valid() %>%
              select(space_acres = ACRES, pres_type = TYPE)
 
-pres_2007 <- st_read(dsn = "../Data/ProtectedOpenSpace.gdb", 
+pres_2007 <- st_read(dsn = "Raw Data/Land Consumption/ProtectedOpenSpace.gdb", 
                      layer = "DVRPC_ProtectedOpenSpace_2007") %>%
              st_transform(crs = st_crs(planning_areas)) %>%
              st_make_valid() %>%
              select(space_acres = Acres, pres_type = TYPE)
 
-pres_2011 <- st_read(dsn = "../Data/ProtectedOpenSpace.gdb", 
+pres_2011 <- st_read(dsn = "Raw Data/Land Consumption/ProtectedOpenSpace.gdb", 
                      layer = "DVRPC_ProtectedOpenSpace_2011") %>%
              st_transform(crs = st_crs(planning_areas)) %>%
              st_make_valid() %>%
              select(space_acres = GIS_Acres, pres_type = OSTYPE)
 
 pres_2016 <- 
-  st_read(dsn = "../Data/DVRPC_Protected_Open_Space_2016/DVRPC_Protected_Open_Space_2016.shp") %>%
+  st_read(dsn = "Raw Data/Land Consumption/DVRPC_Protected_Open_Space_2016/DVRPC_Protected_Open_Space_2016.shp") %>%
   st_transform(crs = st_crs(planning_areas)) %>%
   st_make_valid() %>%
   select(space_acres = ACRES, pres_type = OS_TYPE)

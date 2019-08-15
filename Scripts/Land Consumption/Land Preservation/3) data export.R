@@ -11,7 +11,7 @@ rm(pack, packages)
 options(scipen=999)
 
 #import data
-source("data processing.R")
+source("Scripts/Land Consumption/Land Preservation/2) data processing.R")
 
 #graph 3: total acres of public/private protected land
 #3A: Total Acres of all protected land
@@ -315,5 +315,5 @@ graph_4 %<>%
          'Philadelphia- Non-profit', 'Philadelphia- Preserved Farmland')
 
 #export CSVs
-write_csv(graph_3, "../Processed Data/land consumption graph_3.csv")
-write_csv(graph_4, "../Processed Data/land consumption graph_4.csv")
+write_csv(graph_3, "Outputs/Land Consumption/land consumption graph_3.csv")
+write_csv(graph_4, "Outputs/Land Consumption/land consumption graph_4.csv")
