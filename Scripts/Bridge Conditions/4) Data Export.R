@@ -12,7 +12,7 @@ rm(pack, packages)
 options(scipen=999)
 
 #import processed data
-source("2) Data Processing.R")
+source("Scripts/Bridge Conditions/2) Data Processing.R")
 
 #Graph 1A: percent deficient bridge deck area by maintenance responsibility for a single geography
 graph_1A_region_all_main <- bridges_region %>%
@@ -563,9 +563,9 @@ graph_3B <- left_join(graph_3B_region, graph_3B_state, by = "year") %>%
 rm(graph_3B_region, graph_3B_state, graph_3B_subregion, graph_3B_county)
 
 #write csv's for web
-write_csv(graph_1A, "../Processed Data/Bridge Conditions graph 1A.csv")
-write_csv(graph_1B, "../Processed Data/Bridge Conditions graph 1B.csv")
-write_csv(graph_2A, "../Processed Data/Bridge Conditions graph 2A.csv")
-write_csv(graph_2B, "../Processed Data/Bridge Conditions graph 2B.csv")
-write_csv(graph_3A, "../Processed Data/Bridge Conditions graph 3A.csv")
-write_csv(graph_3B, "../Processed Data/Bridge Conditions graph 3B.csv")
+write_csv(graph_1A, "Outputs/Bridge Conditions/Bridge Conditions graph 1A.csv")
+write_csv(graph_1B, "Outputs/Bridge Conditions/Bridge Conditions graph 1B.csv")
+write_csv(graph_2A, "Outputs/Bridge Conditions/Bridge Conditions graph 2A.csv")
+write_csv(graph_2B, "Outputs/Bridge Conditions/Bridge Conditions graph 2B.csv")
+write_csv(graph_3A, "Outputs/Bridge Conditions/Bridge Conditions graph 3A.csv")
+write_csv(graph_3B, "Outputs/Bridge Conditions/Bridge Conditions graph 3B.csv")

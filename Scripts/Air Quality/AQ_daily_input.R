@@ -13,7 +13,7 @@ rm(pack, packages)
 
 aqOzone <- NULL
 for(i in 1980:2018){
-  path <- paste("../Data/daily/aqidaily", i, "ozone", ".csv", sep = "")
+  path <- paste("Raw Data/Air Quality/daily/aqidaily", i, "ozone", ".csv", sep = "")
   destination <- paste("aqidaily", i, "ozone", sep = "")
   temp <- read_csv(path)
   names(temp) <- c("date", "aqiCategoryOzone", "aqiValueOzone")
@@ -22,7 +22,7 @@ for(i in 1980:2018){
 
 aqPM <- NULL
 for(i in 1999:2018){
-  path <- paste("../Data/daily/aqidaily", i, "pm", ".csv", sep = "")
+  path <- paste("Raw Data/Air Quality/daily/aqidaily", i, "pm", ".csv", sep = "")
   destination <- paste("aqidaily", i, "pm", sep = "")
   temp <- read_csv(path)
   names(temp) <- c("date", "aqiCategoryPM", "aqiValuePM")

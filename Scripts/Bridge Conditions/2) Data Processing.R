@@ -12,7 +12,7 @@ rm(pack, packages)
 options(scipen=999)
 
 #import data
-source("1) Data Import.R")
+source("Scripts/Bridge Conditions/1) Data Import.R")
 
 #add column including lowest rating (of deck, superstructure, substructure, and culvert)
 bridges_region %<>% 

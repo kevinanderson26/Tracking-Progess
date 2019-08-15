@@ -1,0 +1,191 @@
+GEO.id,GEO.id2,GEO.display-label,NAICS.id,NAICS.display-label,YEAR.id,ESTAB,EMP,PAYQTR1,PAYANN
+Geographic identifier code,Id2,Geographic area name,2012 NAICS code,Meaning of 2012 NAICS code,Year,Number of establishments,Paid employees for pay period including March 12 (number),"First-quarter payroll ($1,000)","Annual payroll ($1,000)"
+0500000US34005,34005,"Burlington County, New Jersey",00,Total for all sectors,2015,10456,179646,2317071,9437032
+0500000US34005,34005,"Burlington County, New Jersey",11,"Agriculture, forestry, fishing and hunting",2015,16,88,2078,4845
+0500000US34005,34005,"Burlington County, New Jersey",21,"Mining, quarrying, and oil and gas extraction",2015,4,35,536,2748
+0500000US34005,34005,"Burlington County, New Jersey",22,Utilities,2015,25,950,26636,101389
+0500000US34005,34005,"Burlington County, New Jersey",23,Construction,2015,956,6804,92237,462584
+0500000US34005,34005,"Burlington County, New Jersey",31-33,Manufacturing,2015,317,14470,250063,1023595
+0500000US34005,34005,"Burlington County, New Jersey",42,Wholesale trade,2015,568,11392,191874,798406
+0500000US34005,34005,"Burlington County, New Jersey",44-45,Retail trade,2015,1433,24645,172941,716299
+0500000US34005,34005,"Burlington County, New Jersey",48-49,Transportation and warehousing,2015,295,7468,85813,362734
+0500000US34005,34005,"Burlington County, New Jersey",51,Information,2015,166,3434,82724,309215
+0500000US34005,34005,"Burlington County, New Jersey",52,Finance and insurance,2015,627,18089,411423,1512841
+0500000US34005,34005,"Burlington County, New Jersey",53,Real estate and rental and leasing,2015,381,3671,69724,256088
+0500000US34005,34005,"Burlington County, New Jersey",54,"Professional, scientific, and technical services",2015,1317,14398,255685,1059765
+0500000US34005,34005,"Burlington County, New Jersey",55,Management of companies and enterprises,2015,95,7935,172889,626231
+0500000US34005,34005,"Burlington County, New Jersey",56,Administrative and support and waste management and remediation services,2015,667,12518,105962,460470
+0500000US34005,34005,"Burlington County, New Jersey",61,Educational services,2015,177,2473,17927,70878
+0500000US34005,34005,"Burlington County, New Jersey",62,Health care and social assistance,2015,1312,26825,271162,1199267
+0500000US34005,34005,"Burlington County, New Jersey",71,"Arts, entertainment, and recreation",2015,143,3073,11074,54978
+0500000US34005,34005,"Burlington County, New Jersey",72,Accommodation and food services,2015,894,14374,53013,229021
+0500000US34005,34005,"Burlington County, New Jersey",81,Other services (except public administration),2015,1048,6996,43257,185456
+0500000US34005,34005,"Burlington County, New Jersey",99,Industries not classified,2015,15,8,53,222
+0500000US34007,34007,"Camden County, New Jersey",00,Total for all sectors,2015,11390,172266,1907896,8228593
+0500000US34007,34007,"Camden County, New Jersey",11,"Agriculture, forestry, fishing and hunting",2015,6,67,369,1595
+0500000US34007,34007,"Camden County, New Jersey",21,"Mining, quarrying, and oil and gas extraction",2015,2,a,D,D
+0500000US34007,34007,"Camden County, New Jersey",22,Utilities,2015,19,970,40282,117305
+0500000US34007,34007,"Camden County, New Jersey",23,Construction,2015,995,7669,98366,499849
+0500000US34007,34007,"Camden County, New Jersey",31-33,Manufacturing,2015,392,11296,154062,645615
+0500000US34007,34007,"Camden County, New Jersey",42,Wholesale trade,2015,602,9514,142711,584602
+0500000US34007,34007,"Camden County, New Jersey",44-45,Retail trade,2015,1734,24268,159167,673919
+0500000US34007,34007,"Camden County, New Jersey",48-49,Transportation and warehousing,2015,286,7061,74468,313283
+0500000US34007,34007,"Camden County, New Jersey",51,Information,2015,152,3075,43669,180547
+0500000US34007,34007,"Camden County, New Jersey",52,Finance and insurance,2015,515,4619,104670,378956
+0500000US34007,34007,"Camden County, New Jersey",53,Real estate and rental and leasing,2015,391,2526,28983,128976
+0500000US34007,34007,"Camden County, New Jersey",54,"Professional, scientific, and technical services",2015,1367,12905,197370,872941
+0500000US34007,34007,"Camden County, New Jersey",55,Management of companies and enterprises,2015,81,5835,122582,614719
+0500000US34007,34007,"Camden County, New Jersey",56,Administrative and support and waste management and remediation services,2015,688,11704,92753,427561
+0500000US34007,34007,"Camden County, New Jersey",61,Educational services,2015,166,3653,28843,118035
+0500000US34007,34007,"Camden County, New Jersey",62,Health care and social assistance,2015,1566,40615,495472,2123218
+0500000US34007,34007,"Camden County, New Jersey",71,"Arts, entertainment, and recreation",2015,155,2690,10337,54414
+0500000US34007,34007,"Camden County, New Jersey",72,Accommodation and food services,2015,1001,14718,56080,245727
+0500000US34007,34007,"Camden County, New Jersey",81,Other services (except public administration),2015,1255,9050,57549,246509
+0500000US34007,34007,"Camden County, New Jersey",99,Industries not classified,2015,17,14,84,390
+0500000US34015,34015,"Gloucester County, New Jersey",00,Total for all sectors,2015,5916,89601,855357,3720787
+0500000US34015,34015,"Gloucester County, New Jersey",11,"Agriculture, forestry, fishing and hunting",2015,3,11,58,244
+0500000US34015,34015,"Gloucester County, New Jersey",21,"Mining, quarrying, and oil and gas extraction",2015,3,24,232,1428
+0500000US34015,34015,"Gloucester County, New Jersey",22,Utilities,2015,6,169,4123,17133
+0500000US34015,34015,"Gloucester County, New Jersey",23,Construction,2015,703,6509,87939,417296
+0500000US34015,34015,"Gloucester County, New Jersey",31-33,Manufacturing,2015,221,7456,102861,474831
+0500000US34015,34015,"Gloucester County, New Jersey",42,Wholesale trade,2015,341,7768,117902,486553
+0500000US34015,34015,"Gloucester County, New Jersey",44-45,Retail trade,2015,926,17212,105226,446376
+0500000US34015,34015,"Gloucester County, New Jersey",48-49,Transportation and warehousing,2015,215,4075,47143,198636
+0500000US34015,34015,"Gloucester County, New Jersey",51,Information,2015,91,1260,19347,81930
+0500000US34015,34015,"Gloucester County, New Jersey",52,Finance and insurance,2015,236,1706,21697,85987
+0500000US34015,34015,"Gloucester County, New Jersey",53,Real estate and rental and leasing,2015,159,1188,16460,68659
+0500000US34015,34015,"Gloucester County, New Jersey",54,"Professional, scientific, and technical services",2015,513,3797,50506,212607
+0500000US34015,34015,"Gloucester County, New Jersey",55,Management of companies and enterprises,2015,30,451,9975,37531
+0500000US34015,34015,"Gloucester County, New Jersey",56,Administrative and support and waste management and remediation services,2015,410,8308,70197,296584
+0500000US34015,34015,"Gloucester County, New Jersey",61,Educational services,2015,71,1009,6630,26253
+0500000US34015,34015,"Gloucester County, New Jersey",62,Health care and social assistance,2015,729,14376,135310,607210
+0500000US34015,34015,"Gloucester County, New Jersey",71,"Arts, entertainment, and recreation",2015,95,1500,4823,24124
+0500000US34015,34015,"Gloucester County, New Jersey",72,Accommodation and food services,2015,490,8404,30124,130244
+0500000US34015,34015,"Gloucester County, New Jersey",81,Other services (except public administration),2015,669,4370,24776,107055
+0500000US34015,34015,"Gloucester County, New Jersey",99,Industries not classified,2015,5,8,28,106
+0500000US34021,34021,"Mercer County, New Jersey",00,Total for all sectors,2015,9664,188908,3618105,12427864
+0500000US34021,34021,"Mercer County, New Jersey",11,"Agriculture, forestry, fishing and hunting",2015,4,51,404,1904
+0500000US34021,34021,"Mercer County, New Jersey",21,"Mining, quarrying, and oil and gas extraction",2015,1,a,D,D
+0500000US34021,34021,"Mercer County, New Jersey",22,Utilities,2015,17,1286,123492,266367
+0500000US34021,34021,"Mercer County, New Jersey",23,Construction,2015,655,4240,61049,301034
+0500000US34021,34021,"Mercer County, New Jersey",31-33,Manufacturing,2015,236,6284,92540,397875
+0500000US34021,34021,"Mercer County, New Jersey",42,Wholesale trade,2015,404,10461,400407,1191319
+0500000US34021,34021,"Mercer County, New Jersey",44-45,Retail trade,2015,1284,19849,124624,534189
+0500000US34021,34021,"Mercer County, New Jersey",48-49,Transportation and warehousing,2015,174,6514,67447,321716
+0500000US34021,34021,"Mercer County, New Jersey",51,Information,2015,190,4721,120739,462816
+0500000US34021,34021,"Mercer County, New Jersey",52,Finance and insurance,2015,598,15418,729360,1908738
+0500000US34021,34021,"Mercer County, New Jersey",53,Real estate and rental and leasing,2015,331,1917,23643,96390
+0500000US34021,34021,"Mercer County, New Jersey",54,"Professional, scientific, and technical services",2015,1620,21524,708942,2362324
+0500000US34021,34021,"Mercer County, New Jersey",55,Management of companies and enterprises,2015,65,3642,258221,678072
+0500000US34021,34021,"Mercer County, New Jersey",56,Administrative and support and waste management and remediation services,2015,595,9719,92541,457173
+0500000US34021,34021,"Mercer County, New Jersey",61,Educational services,2015,222,27488,307213,1262000
+0500000US34021,34021,"Mercer County, New Jersey",62,Health care and social assistance,2015,1193,30894,348431,1505111
+0500000US34021,34021,"Mercer County, New Jersey",71,"Arts, entertainment, and recreation",2015,144,2950,14115,65499
+0500000US34021,34021,"Mercer County, New Jersey",72,Accommodation and food services,2015,829,13165,56769,248405
+0500000US34021,34021,"Mercer County, New Jersey",81,Other services (except public administration),2015,1085,8767,88041,366398
+0500000US34021,34021,"Mercer County, New Jersey",99,Industries not classified,2015,17,17,101,430
+0500000US42017,42017,"Bucks County, Pennsylvania",00,Total for all sectors,2015,19037,249874,2650809,11179481
+0500000US42017,42017,"Bucks County, Pennsylvania",11,"Agriculture, forestry, fishing and hunting",2015,15,30,119,435
+0500000US42017,42017,"Bucks County, Pennsylvania",21,"Mining, quarrying, and oil and gas extraction",2015,18,162,1592,9361
+0500000US42017,42017,"Bucks County, Pennsylvania",22,Utilities,2015,20,387,13679,46784
+0500000US42017,42017,"Bucks County, Pennsylvania",23,Construction,2015,2287,14726,204480,997860
+0500000US42017,42017,"Bucks County, Pennsylvania",31-33,Manufacturing,2015,1004,25113,351292,1474230
+0500000US42017,42017,"Bucks County, Pennsylvania",42,Wholesale trade,2015,1286,16369,255866,1070387
+0500000US42017,42017,"Bucks County, Pennsylvania",44-45,Retail trade,2015,2323,38216,247976,1064594
+0500000US42017,42017,"Bucks County, Pennsylvania",48-49,Transportation and warehousing,2015,568,7459,68600,304608
+0500000US42017,42017,"Bucks County, Pennsylvania",51,Information,2015,302,5532,108024,407943
+0500000US42017,42017,"Bucks County, Pennsylvania",52,Finance and insurance,2015,1144,8168,186238,638103
+0500000US42017,42017,"Bucks County, Pennsylvania",53,Real estate and rental and leasing,2015,591,3327,35612,156441
+0500000US42017,42017,"Bucks County, Pennsylvania",54,"Professional, scientific, and technical services",2015,2364,16482,282458,1176790
+0500000US42017,42017,"Bucks County, Pennsylvania",55,Management of companies and enterprises,2015,134,4067,80625,311600
+0500000US42017,42017,"Bucks County, Pennsylvania",56,Administrative and support and waste management and remediation services,2015,1246,21708,172396,700152
+0500000US42017,42017,"Bucks County, Pennsylvania",61,Educational services,2015,255,5228,42576,176602
+0500000US42017,42017,"Bucks County, Pennsylvania",62,Health care and social assistance,2015,1997,42794,408021,1804423
+0500000US42017,42017,"Bucks County, Pennsylvania",71,"Arts, entertainment, and recreation",2015,275,6409,31396,143100
+0500000US42017,42017,"Bucks County, Pennsylvania",72,Accommodation and food services,2015,1399,21728,81038,355273
+0500000US42017,42017,"Bucks County, Pennsylvania",81,Other services (except public administration),2015,1789,11940,78690,340353
+0500000US42017,42017,"Bucks County, Pennsylvania",99,Industries not classified,2015,20,29,131,442
+0500000US42029,42029,"Chester County, Pennsylvania",00,Total for all sectors,2015,14189,246768,4558686,17415351
+0500000US42029,42029,"Chester County, Pennsylvania",11,"Agriculture, forestry, fishing and hunting",2015,41,562,5625,21539
+0500000US42029,42029,"Chester County, Pennsylvania",21,"Mining, quarrying, and oil and gas extraction",2015,9,120,975,4925
+0500000US42029,42029,"Chester County, Pennsylvania",22,Utilities,2015,24,g,D,D
+0500000US42029,42029,"Chester County, Pennsylvania",23,Construction,2015,1391,9862,136950,661775
+0500000US42029,42029,"Chester County, Pennsylvania",31-33,Manufacturing,2015,513,16808,276522,1089396
+0500000US42029,42029,"Chester County, Pennsylvania",42,Wholesale trade,2015,927,17230,626099,1920717
+0500000US42029,42029,"Chester County, Pennsylvania",44-45,Retail trade,2015,1497,28453,265743,1020042
+0500000US42029,42029,"Chester County, Pennsylvania",48-49,Transportation and warehousing,2015,239,6606,66327,271269
+0500000US42029,42029,"Chester County, Pennsylvania",51,Information,2015,305,9051,285729,1101566
+0500000US42029,42029,"Chester County, Pennsylvania",52,Finance and insurance,2015,990,24493,676876,2608483
+0500000US42029,42029,"Chester County, Pennsylvania",53,Real estate and rental and leasing,2015,491,2906,58464,212717
+0500000US42029,42029,"Chester County, Pennsylvania",54,"Professional, scientific, and technical services",2015,2292,26425,701378,2811279
+0500000US42029,42029,"Chester County, Pennsylvania",55,Management of companies and enterprises,2015,162,14583,622513,2248032
+0500000US42029,42029,"Chester County, Pennsylvania",56,Administrative and support and waste management and remediation services,2015,970,15132,135663,633948
+0500000US42029,42029,"Chester County, Pennsylvania",61,Educational services,2015,232,6431,61843,254120
+0500000US42029,42029,"Chester County, Pennsylvania",62,Health care and social assistance,2015,1463,34843,387500,1608862
+0500000US42029,42029,"Chester County, Pennsylvania",71,"Arts, entertainment, and recreation",2015,224,4463,21529,101704
+0500000US42029,42029,"Chester County, Pennsylvania",72,Accommodation and food services,2015,957,16102,65366,283751
+0500000US42029,42029,"Chester County, Pennsylvania",81,Other services (except public administration),2015,1441,11496,90093,389904
+0500000US42029,42029,"Chester County, Pennsylvania",99,Industries not classified,2015,21,27,182,678
+0500000US42045,42045,"Delaware County, Pennsylvania",00,Total for all sectors,2015,12789,211953,3208553,11959070
+0500000US42045,42045,"Delaware County, Pennsylvania",11,"Agriculture, forestry, fishing and hunting",2015,2,a,D,D
+0500000US42045,42045,"Delaware County, Pennsylvania",21,"Mining, quarrying, and oil and gas extraction",2015,5,50,196,1283
+0500000US42045,42045,"Delaware County, Pennsylvania",22,Utilities,2015,20,552,20191,65865
+0500000US42045,42045,"Delaware County, Pennsylvania",23,Construction,2015,1301,11074,175001,784090
+0500000US42045,42045,"Delaware County, Pennsylvania",31-33,Manufacturing,2015,361,12817,284245,1067251
+0500000US42045,42045,"Delaware County, Pennsylvania",42,Wholesale trade,2015,612,6767,117757,468552
+0500000US42045,42045,"Delaware County, Pennsylvania",44-45,Retail trade,2015,1676,26324,173511,722971
+0500000US42045,42045,"Delaware County, Pennsylvania",48-49,Transportation and warehousing,2015,282,6622,76843,317667
+0500000US42045,42045,"Delaware County, Pennsylvania",51,Information,2015,213,11069,623838,1768218
+0500000US42045,42045,"Delaware County, Pennsylvania",52,Finance and insurance,2015,829,12964,418642,1401663
+0500000US42045,42045,"Delaware County, Pennsylvania",53,Real estate and rental and leasing,2015,431,2796,41857,178776
+0500000US42045,42045,"Delaware County, Pennsylvania",54,"Professional, scientific, and technical services",2015,1535,10768,196744,800266
+0500000US42045,42045,"Delaware County, Pennsylvania",55,Management of companies and enterprises,2015,95,6125,204459,647242
+0500000US42045,42045,"Delaware County, Pennsylvania",56,Administrative and support and waste management and remediation services,2015,833,18540,162740,711176
+0500000US42045,42045,"Delaware County, Pennsylvania",61,Educational services,2015,218,13765,121230,501001
+0500000US42045,42045,"Delaware County, Pennsylvania",62,Health care and social assistance,2015,1649,39580,417802,1778170
+0500000US42045,42045,"Delaware County, Pennsylvania",71,"Arts, entertainment, and recreation",2015,215,5017,32025,143903
+0500000US42045,42045,"Delaware County, Pennsylvania",72,Accommodation and food services,2015,1089,17010,65284,280665
+0500000US42045,42045,"Delaware County, Pennsylvania",81,Other services (except public administration),2015,1409,10069,75949,319386
+0500000US42045,42045,"Delaware County, Pennsylvania",99,Industries not classified,2015,14,39,219,898
+0500000US42091,42091,"Montgomery County, Pennsylvania",00,Total for all sectors,2015,26076,489771,8035545,30085010
+0500000US42091,42091,"Montgomery County, Pennsylvania",11,"Agriculture, forestry, fishing and hunting",2015,12,35,254,1162
+0500000US42091,42091,"Montgomery County, Pennsylvania",21,"Mining, quarrying, and oil and gas extraction",2015,14,237,2864,15591
+0500000US42091,42091,"Montgomery County, Pennsylvania",22,Utilities,2015,26,2718,118602,350405
+0500000US42091,42091,"Montgomery County, Pennsylvania",23,Construction,2015,2194,22288,343084,1723907
+0500000US42091,42091,"Montgomery County, Pennsylvania",31-33,Manufacturing,2015,983,41333,790935,2961429
+0500000US42091,42091,"Montgomery County, Pennsylvania",42,Wholesale trade,2015,1582,30058,844108,3097519
+0500000US42091,42091,"Montgomery County, Pennsylvania",44-45,Retail trade,2015,3219,59484,422846,1767389
+0500000US42091,42091,"Montgomery County, Pennsylvania",48-49,Transportation and warehousing,2015,401,9471,102735,420363
+0500000US42091,42091,"Montgomery County, Pennsylvania",51,Information,2015,552,14724,293241,1146188
+0500000US42091,42091,"Montgomery County, Pennsylvania",52,Finance and insurance,2015,1942,34846,1298684,3717663
+0500000US42091,42091,"Montgomery County, Pennsylvania",53,Real estate and rental and leasing,2015,983,7442,136419,511587
+0500000US42091,42091,"Montgomery County, Pennsylvania",54,"Professional, scientific, and technical services",2015,3735,43771,1050064,4082041
+0500000US42091,42091,"Montgomery County, Pennsylvania",55,Management of companies and enterprises,2015,260,21783,916745,2839842
+0500000US42091,42091,"Montgomery County, Pennsylvania",56,Administrative and support and waste management and remediation services,2015,1713,41641,394566,1826496
+0500000US42091,42091,"Montgomery County, Pennsylvania",61,Educational services,2015,448,17292,141564,575769
+0500000US42091,42091,"Montgomery County, Pennsylvania",62,Health care and social assistance,2015,3075,81519,859369,3673519
+0500000US42091,42091,"Montgomery County, Pennsylvania",71,"Arts, entertainment, and recreation",2015,409,8497,38984,179196
+0500000US42091,42091,"Montgomery County, Pennsylvania",72,Accommodation and food services,2015,1965,32060,134305,580036
+0500000US42091,42091,"Montgomery County, Pennsylvania",81,Other services (except public administration),2015,2513,20519,145795,613091
+0500000US42091,42091,"Montgomery County, Pennsylvania",99,Industries not classified,2015,50,53,381,1817
+0500000US42101,42101,"Philadelphia County, Pennsylvania",00,Total for all sectors,2015,27287,606822,8495891,33868880
+0500000US42101,42101,"Philadelphia County, Pennsylvania",11,"Agriculture, forestry, fishing and hunting",2015,2,a,D,D
+0500000US42101,42101,"Philadelphia County, Pennsylvania",21,"Mining, quarrying, and oil and gas extraction",2015,2,b,D,D
+0500000US42101,42101,"Philadelphia County, Pennsylvania",22,Utilities,2015,10,1551,74789,217297
+0500000US42101,42101,"Philadelphia County, Pennsylvania",23,Construction,2015,1288,10569,166028,770766
+0500000US42101,42101,"Philadelphia County, Pennsylvania",31-33,Manufacturing,2015,712,21345,297382,1254020
+0500000US42101,42101,"Philadelphia County, Pennsylvania",42,Wholesale trade,2015,1032,16118,227826,992799
+0500000US42101,42101,"Philadelphia County, Pennsylvania",44-45,Retail trade,2015,4541,52370,302466,1272475
+0500000US42101,42101,"Philadelphia County, Pennsylvania",48-49,Transportation and warehousing,2015,600,24562,352372,1360898
+0500000US42101,42101,"Philadelphia County, Pennsylvania",51,Information,2015,515,15474,675723,2269772
+0500000US42101,42101,"Philadelphia County, Pennsylvania",52,Finance and insurance,2015,1328,30142,1184676,3653398
+0500000US42101,42101,"Philadelphia County, Pennsylvania",53,Real estate and rental and leasing,2015,1133,10373,154525,585190
+0500000US42101,42101,"Philadelphia County, Pennsylvania",54,"Professional, scientific, and technical services",2015,2929,47431,981536,4412578
+0500000US42101,42101,"Philadelphia County, Pennsylvania",55,Management of companies and enterprises,2015,169,14300,399677,1444217
+0500000US42101,42101,"Philadelphia County, Pennsylvania",56,Administrative and support and waste management and remediation services,2015,1037,28294,243586,1050412
+0500000US42101,42101,"Philadelphia County, Pennsylvania",61,Educational services,2015,540,83816,1080555,4488825
+0500000US42101,42101,"Philadelphia County, Pennsylvania",62,Health care and social assistance,2015,3809,143629,1649552,6976480
+0500000US42101,42101,"Philadelphia County, Pennsylvania",71,"Arts, entertainment, and recreation",2015,404,24450,225585,1042289
+0500000US42101,42101,"Philadelphia County, Pennsylvania",72,Accommodation and food services,2015,3753,56015,259794,1146457
+0500000US42101,42101,"Philadelphia County, Pennsylvania",81,Other services (except public administration),2015,3421,26251,217498,926640
+0500000US42101,42101,"Philadelphia County, Pennsylvania",99,Industries not classified,2015,62,83,266,1179

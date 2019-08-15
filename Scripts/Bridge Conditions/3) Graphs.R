@@ -12,7 +12,7 @@ rm(pack, packages)
 options(scipen=999)
 
 #import data
-source("2) Data Processing.R")
+source("Scripts/Bridge Condition/2) Data Processing.R")
 
 #define graph theme
 graph_theme <- theme(axis.text=element_text(size=6),

@@ -13,7 +13,7 @@ rm(pack, packages)
 aqiYearlyRaw <- NULL
 
 for(i in 1980:2018){
-  path <- paste("../Data/yearly/annual_aqi_by_cbsa_", i, ".csv", sep = "")
+  path <- paste("Raw Data/Air Quality/yearly/annual_aqi_by_cbsa_", i, ".csv", sep = "")
   temp <- read_csv(path)
   aqiYearlyRaw <- bind_rows(aqiYearlyRaw, temp)
   rm(path, temp, i)

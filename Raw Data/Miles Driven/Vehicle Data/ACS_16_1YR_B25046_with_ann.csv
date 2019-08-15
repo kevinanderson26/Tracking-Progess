@@ -1,0 +1,11 @@
+GEO.id,GEO.id2,GEO.display-label,HD01_VD01,HD02_VD01,HD01_VD02,HD02_VD02,HD01_VD03,HD02_VD03
+Id,Id2,Geography,Estimate; Aggregate number of vehicles available:,Margin of Error; Aggregate number of vehicles available:,Estimate; Aggregate number of vehicles available: - Owner occupied,Margin of Error; Aggregate number of vehicles available: - Owner occupied,Estimate; Aggregate number of vehicles available: - Renter occupied,Margin of Error; Aggregate number of vehicles available: - Renter occupied
+0500000US34005,34005,"Burlington County, New Jersey",324643,7619,266951,8353,57692,4313
+0500000US34007,34007,"Camden County, New Jersey",312883,8053,251385,7873,61498,4890
+0500000US34015,34015,"Gloucester County, New Jersey",202333,5874,173894,6033,28439,2726
+0500000US34021,34021,"Mercer County, New Jersey",214374,6169,161181,6534,53193,4757
+0500000US42017,42017,"Bucks County, Pennsylvania",458793,8478,390651,9307,68142,4859
+0500000US42029,42029,"Chester County, Pennsylvania",368975,7832,304194,8583,64781,5062
+0500000US42045,42045,"Delaware County, Pennsylvania",340386,7181,266086,7937,74300,4642
+0500000US42091,42091,"Montgomery County, Pennsylvania",571709,6581,460171,7709,111538,4972
+0500000US42101,42101,"Philadelphia County, Pennsylvania",610005,14147,393170,12523,216835,8789

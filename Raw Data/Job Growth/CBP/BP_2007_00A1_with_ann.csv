@@ -1,0 +1,191 @@
+GEO.id,GEO.id2,GEO.display-label,NAICS.id,NAICS.display-label,YEAR.id,ESTAB,EMP,EMP_N,PAYQTR1,PAYQTR1_N,PAYANN,PAYANN_N
+Geographic identifier code,Id2,Geographic area name,2002 NAICS code,Meaning of 2002 NAICS code,Year,Number of establishments,Number of employees,Noise range for number of employees (%),"First-quarter payroll ($1,000)",Noise range for first-quarter payroll (%),"Annual payroll ($1,000)",Noise range for annual payroll (%)
+0500000US34005,34005,"Burlington County, New Jersey",00,Total for all sectors,2007,11199,185517,G,1998363,G,8136098,G
+0500000US34005,34005,"Burlington County, New Jersey",11,"Agriculture, forestry, fishing and hunting",2007,19,180,G,2627,H,10731,H
+0500000US34005,34005,"Burlington County, New Jersey",21,Mining ,2007,7,51,G,597,G,2303,G
+0500000US34005,34005,"Burlington County, New Jersey",22,Utilities,2007,15,f,D,D,D,D,D
+0500000US34005,34005,"Burlington County, New Jersey",23,Construction,2007,1201,9569,G,109648,G,491628,G
+0500000US34005,34005,"Burlington County, New Jersey",31-33,Manufacturing,2007,415,20197,H,293596,H,1187736,H
+0500000US34005,34005,"Burlington County, New Jersey",42,Wholesale trade,2007,682,14295,G,201424,G,834880,G
+0500000US34005,34005,"Burlington County, New Jersey",44-45,Retail trade,2007,1597,27892,G,172397,G,706622,G
+0500000US34005,34005,"Burlington County, New Jersey",48-49,Transportation and warehousing,2007,282,8736,G,92721,G,390446,G
+0500000US34005,34005,"Burlington County, New Jersey",51,Information,2007,180,3767,G,69989,G,260080,G
+0500000US34005,34005,"Burlington County, New Jersey",52,Finance and insurance,2007,734,17567,H,292334,G,1060331,H
+0500000US34005,34005,"Burlington County, New Jersey",53,Real estate and rental and leasing,2007,410,3678,H,50352,H,180890,G
+0500000US34005,34005,"Burlington County, New Jersey",54,"Professional, scientific, and technical services",2007,1421,14763,G,200157,G,843686,G
+0500000US34005,34005,"Burlington County, New Jersey",55,Management of companies and enterprises,2007,95,5967,H,85105,G,349218,G
+0500000US34005,34005,"Burlington County, New Jersey",56,Administrative and support and waste management and remediation services,2007,660,9877,G,85760,G,378815,G
+0500000US34005,34005,"Burlington County, New Jersey",61,Educational services,2007,148,2229,G,14663,G,58230,G
+0500000US34005,34005,"Burlington County, New Jersey",62,Health care and social assistance,2007,1128,23053,G,214756,G,906531,G
+0500000US34005,34005,"Burlington County, New Jersey",71,"Arts, entertainment, and recreation",2007,160,2109,G,9592,G,44968,G
+0500000US34005,34005,"Burlington County, New Jersey",72,Accommodation and food services,2007,902,13281,G,43693,G,185794,G
+0500000US34005,34005,"Burlington County, New Jersey",81,Other services (except public administration),2007,1129,7609,G,45774,G,188669,G
+0500000US34005,34005,"Burlington County, New Jersey",99,Industries not classified,2007,14,3,G,S,S,746,G
+0500000US34007,34007,"Camden County, New Jersey",00,Total for all sectors,2007,12728,186795,G,1820347,G,7550602,G
+0500000US34007,34007,"Camden County, New Jersey",11,"Agriculture, forestry, fishing and hunting",2007,3,a,D,D,D,D,D
+0500000US34007,34007,"Camden County, New Jersey",21,Mining ,2007,2,b,D,D,D,D,D
+0500000US34007,34007,"Camden County, New Jersey",22,Utilities,2007,25,g,S,20122,H,71137,H
+0500000US34007,34007,"Camden County, New Jersey",23,Construction,2007,1348,10405,G,123581,G,564037,G
+0500000US34007,34007,"Camden County, New Jersey",31-33,Manufacturing,2007,485,16181,G,206416,G,827625,G
+0500000US34007,34007,"Camden County, New Jersey",42,Wholesale trade,2007,743,10116,G,124094,G,531743,G
+0500000US34007,34007,"Camden County, New Jersey",44-45,Retail trade,2007,1911,25822,G,153380,G,640767,G
+0500000US34007,34007,"Camden County, New Jersey",48-49,Transportation and warehousing,2007,286,7461,G,62762,G,258783,G
+0500000US34007,34007,"Camden County, New Jersey",51,Information,2007,179,4280,H,52323,H,206183,H
+0500000US34007,34007,"Camden County, New Jersey",52,Finance and insurance,2007,700,8502,G,138254,G,477464,G
+0500000US34007,34007,"Camden County, New Jersey",53,Real estate and rental and leasing,2007,452,3202,G,34056,G,133513,G
+0500000US34007,34007,"Camden County, New Jersey",54,"Professional, scientific, and technical services",2007,1644,14024,G,173141,G,742327,G
+0500000US34007,34007,"Camden County, New Jersey",55,Management of companies and enterprises,2007,77,4520,H,121474,H,513887,H
+0500000US34007,34007,"Camden County, New Jersey",56,Administrative and support and waste management and remediation services,2007,718,16475,G,108003,G,464069,G
+0500000US34007,34007,"Camden County, New Jersey",61,Educational services,2007,169,3429,G,22448,G,88386,G
+0500000US34007,34007,"Camden County, New Jersey",62,Health care and social assistance,2007,1570,36240,G,370119,G,1565886,G
+0500000US34007,34007,"Camden County, New Jersey",71,"Arts, entertainment, and recreation",2007,157,2069,G,9049,G,44518,G
+0500000US34007,34007,"Camden County, New Jersey",72,Accommodation and food services,2007,1000,13557,G,45908,G,191122,G
+0500000US34007,34007,"Camden County, New Jersey",81,Other services (except public administration),2007,1253,9452,G,54905,G,227111,G
+0500000US34007,34007,"Camden County, New Jersey",99,Industries not classified,2007,6,10,G,30,G,133,G
+0500000US34015,34015,"Gloucester County, New Jersey",00,Total for all sectors,2007,6137,92154,G,798547,G,3356845,G
+0500000US34015,34015,"Gloucester County, New Jersey",11,"Agriculture, forestry, fishing and hunting",2007,4,10,G,39,G,176,G
+0500000US34015,34015,"Gloucester County, New Jersey",21,Mining ,2007,5,32,H,392,H,1418,G
+0500000US34015,34015,"Gloucester County, New Jersey",22,Utilities,2007,5,171,G,3955,G,15265,G
+0500000US34015,34015,"Gloucester County, New Jersey",23,Construction,2007,890,7161,G,89147,G,423644,G
+0500000US34015,34015,"Gloucester County, New Jersey",31-33,Manufacturing,2007,270,10218,G,151462,G,592475,G
+0500000US34015,34015,"Gloucester County, New Jersey",42,Wholesale trade,2007,360,9389,G,117156,G,478506,G
+0500000US34015,34015,"Gloucester County, New Jersey",44-45,Retail trade,2007,1013,17737,G,96450,G,401072,G
+0500000US34015,34015,"Gloucester County, New Jersey",48-49,Transportation and warehousing,2007,208,3725,G,33476,G,137846,G
+0500000US34015,34015,"Gloucester County, New Jersey",51,Information,2007,78,1153,H,13155,H,58454,G
+0500000US34015,34015,"Gloucester County, New Jersey",52,Finance and insurance,2007,266,2115,G,19116,G,78879,G
+0500000US34015,34015,"Gloucester County, New Jersey",53,Real estate and rental and leasing,2007,182,1099,G,10207,G,42866,G
+0500000US34015,34015,"Gloucester County, New Jersey",54,"Professional, scientific, and technical services",2007,546,4328,H,44218,G,192185,G
+0500000US34015,34015,"Gloucester County, New Jersey",55,Management of companies and enterprises,2007,20,e,S,11289,H,37043,H
+0500000US34015,34015,"Gloucester County, New Jersey",56,Administrative and support and waste management and remediation services,2007,347,7239,G,42179,G,183428,G
+0500000US34015,34015,"Gloucester County, New Jersey",61,Educational services,2007,68,1161,G,5972,G,24050,G
+0500000US34015,34015,"Gloucester County, New Jersey",62,Health care and social assistance,2007,629,11819,H,107009,H,464166,H
+0500000US34015,34015,"Gloucester County, New Jersey",71,"Arts, entertainment, and recreation",2007,90,1087,G,3902,G,18664,G
+0500000US34015,34015,"Gloucester County, New Jersey",72,Accommodation and food services,2007,464,8521,G,25796,G,106928,G
+0500000US34015,34015,"Gloucester County, New Jersey",81,Other services (except public administration),2007,686,4710,G,23615,G,99666,G
+0500000US34015,34015,"Gloucester County, New Jersey",99,Industries not classified,2007,6,5,G,S,S,114,G
+0500000US34021,34021,"Mercer County, New Jersey",00,Total for all sectors,2007,10049,189505,G,2653831,G,10172319,G
+0500000US34021,34021,"Mercer County, New Jersey",11,"Agriculture, forestry, fishing and hunting",2007,5,49,H,273,H,1284,G
+0500000US34021,34021,"Mercer County, New Jersey",21,Mining ,2007,3,b,D,D,D,D,D
+0500000US34021,34021,"Mercer County, New Jersey",22,Utilities,2007,14,873,G,39809,H,119894,H
+0500000US34021,34021,"Mercer County, New Jersey",23,Construction,2007,773,6160,G,75985,G,346090,G
+0500000US34021,34021,"Mercer County, New Jersey",31-33,Manufacturing,2007,290,8290,G,93558,G,381953,G
+0500000US34021,34021,"Mercer County, New Jersey",42,Wholesale trade,2007,416,9130,H,173657,H,755488,H
+0500000US34021,34021,"Mercer County, New Jersey",44-45,Retail trade,2007,1408,21382,G,127313,G,529739,G
+0500000US34021,34021,"Mercer County, New Jersey",48-49,Transportation and warehousing,2007,165,4443,H,35243,G,144058,G
+0500000US34021,34021,"Mercer County, New Jersey",51,Information,2007,192,6439,G,112448,G,414785,G
+0500000US34021,34021,"Mercer County, New Jersey",52,Finance and insurance,2007,655,10999,G,273281,H,857298,G
+0500000US34021,34021,"Mercer County, New Jersey",53,Real estate and rental and leasing,2007,345,2031,G,20843,G,85867,G
+0500000US34021,34021,"Mercer County, New Jersey",54,"Professional, scientific, and technical services",2007,1715,23406,G,447925,G,1894718,G
+0500000US34021,34021,"Mercer County, New Jersey",55,Management of companies and enterprises,2007,80,14790,G,470783,H,1586727,H
+0500000US34021,34021,"Mercer County, New Jersey",56,Administrative and support and waste management and remediation services,2007,547,8986,G,61912,G,276724,G
+0500000US34021,34021,"Mercer County, New Jersey",61,Educational services,2007,203,21485,H,220752,H,922250,H
+0500000US34021,34021,"Mercer County, New Jersey",62,Health care and social assistance,2007,1145,27330,G,366805,H,1295299,G
+0500000US34021,34021,"Mercer County, New Jersey",71,"Arts, entertainment, and recreation",2007,160,1983,G,9824,G,45336,G
+0500000US34021,34021,"Mercer County, New Jersey",72,Accommodation and food services,2007,820,11994,G,46099,G,194309,G
+0500000US34021,34021,"Mercer County, New Jersey",81,Other services (except public administration),2007,1106,9676,G,76884,G,318021,G
+0500000US34021,34021,"Mercer County, New Jersey",99,Industries not classified,2007,7,a,S,37,G,147,G
+0500000US42017,42017,"Bucks County, Pennsylvania",00,Total for all sectors,2007,19498,264722,G,2521558,G,10458922,G
+0500000US42017,42017,"Bucks County, Pennsylvania",11,"Agriculture, forestry, fishing and hunting",2007,17,45,H,235,G,1079,G
+0500000US42017,42017,"Bucks County, Pennsylvania",21,Mining ,2007,16,396,G,4046,G,17347,G
+0500000US42017,42017,"Bucks County, Pennsylvania",22,Utilities,2007,17,407,H,10601,H,40490,H
+0500000US42017,42017,"Bucks County, Pennsylvania",23,Construction,2007,2486,17939,G,219139,G,978765,G
+0500000US42017,42017,"Bucks County, Pennsylvania",31-33,Manufacturing,2007,1133,32880,G,378573,G,1526639,G
+0500000US42017,42017,"Bucks County, Pennsylvania",42,Wholesale trade,2007,1418,16688,G,249854,G,987117,G
+0500000US42017,42017,"Bucks County, Pennsylvania",44-45,Retail trade,2007,2530,41924,G,253627,G,1047302,G
+0500000US42017,42017,"Bucks County, Pennsylvania",48-49,Transportation and warehousing,2007,476,6262,G,53929,G,224908,G
+0500000US42017,42017,"Bucks County, Pennsylvania",51,Information,2007,316,7372,H,110946,H,414801,H
+0500000US42017,42017,"Bucks County, Pennsylvania",52,Finance and insurance,2007,1256,9403,G,136164,G,495356,G
+0500000US42017,42017,"Bucks County, Pennsylvania",53,Real estate and rental and leasing,2007,596,4331,G,41333,G,171836,G
+0500000US42017,42017,"Bucks County, Pennsylvania",54,"Professional, scientific, and technical services",2007,2462,18723,G,260794,G,1122857,G
+0500000US42017,42017,"Bucks County, Pennsylvania",55,Management of companies and enterprises,2007,116,6402,H,141245,H,545671,H
+0500000US42017,42017,"Bucks County, Pennsylvania",56,Administrative and support and waste management and remediation services,2007,1178,21734,G,131226,G,632403,G
+0500000US42017,42017,"Bucks County, Pennsylvania",61,Educational services,2007,228,5496,G,36522,G,147306,G
+0500000US42017,42017,"Bucks County, Pennsylvania",62,Health care and social assistance,2007,1924,36683,G,326040,G,1380846,G
+0500000US42017,42017,"Bucks County, Pennsylvania",71,"Arts, entertainment, and recreation",2007,278,5331,H,26391,H,129443,H
+0500000US42017,42017,"Bucks County, Pennsylvania",72,Accommodation and food services,2007,1303,19740,G,63547,G,273475,G
+0500000US42017,42017,"Bucks County, Pennsylvania",81,Other services (except public administration),2007,1737,12959,G,77335,G,321117,G
+0500000US42017,42017,"Bucks County, Pennsylvania",99,Industries not classified,2007,11,a,S,S,S,164,G
+0500000US42029,42029,"Chester County, Pennsylvania",00,Total for all sectors,2007,14290,228599,G,3251633,G,13115622,G
+0500000US42029,42029,"Chester County, Pennsylvania",11,"Agriculture, forestry, fishing and hunting",2007,47,421,G,3324,G,14825,G
+0500000US42029,42029,"Chester County, Pennsylvania",21,Mining ,2007,8,145,G,1496,H,6352,G
+0500000US42029,42029,"Chester County, Pennsylvania",22,Utilities,2007,17,g,D,D,D,D,D
+0500000US42029,42029,"Chester County, Pennsylvania",23,Construction,2007,1545,11432,G,144088,G,650521,G
+0500000US42029,42029,"Chester County, Pennsylvania",31-33,Manufacturing,2007,571,15712,G,213930,G,875689,G
+0500000US42029,42029,"Chester County, Pennsylvania",42,Wholesale trade,2007,1029,12439,G,243683,G,979617,G
+0500000US42029,42029,"Chester County, Pennsylvania",44-45,Retail trade,2007,1558,28714,G,252300,H,903893,G
+0500000US42029,42029,"Chester County, Pennsylvania",48-49,Transportation and warehousing,2007,256,6910,G,64983,G,272053,G
+0500000US42029,42029,"Chester County, Pennsylvania",51,Information,2007,310,8286,G,162960,G,612551,G
+0500000US42029,42029,"Chester County, Pennsylvania",52,Finance and insurance,2007,1077,21801,H,426961,H,1886045,H
+0500000US42029,42029,"Chester County, Pennsylvania",53,Real estate and rental and leasing,2007,482,3147,G,38424,G,156803,G
+0500000US42029,42029,"Chester County, Pennsylvania",54,"Professional, scientific, and technical services",2007,2396,26105,G,518408,G,2144119,G
+0500000US42029,42029,"Chester County, Pennsylvania",55,Management of companies and enterprises,2007,148,12763,G,523113,H,1923722,G
+0500000US42029,42029,"Chester County, Pennsylvania",56,Administrative and support and waste management and remediation services,2007,891,13938,G,116964,G,531435,G
+0500000US42029,42029,"Chester County, Pennsylvania",61,Educational services,2007,192,5387,G,40179,G,163009,G
+0500000US42029,42029,"Chester County, Pennsylvania",62,Health care and social assistance,2007,1354,30571,G,275205,G,1173303,G
+0500000US42029,42029,"Chester County, Pennsylvania",71,"Arts, entertainment, and recreation",2007,215,3261,G,14958,G,75848,G
+0500000US42029,42029,"Chester County, Pennsylvania",72,Accommodation and food services,2007,901,15554,G,54096,G,230490,G
+0500000US42029,42029,"Chester County, Pennsylvania",81,Other services (except public administration),2007,1279,10737,G,72937,G,303320,G
+0500000US42029,42029,"Chester County, Pennsylvania",99,Industries not classified,2007,14,a,S,42,G,183,H
+0500000US42045,42045,"Delaware County, Pennsylvania",00,Total for all sectors,2007,13165,213126,G,2605601,G,10010189,G
+0500000US42045,42045,"Delaware County, Pennsylvania",11,"Agriculture, forestry, fishing and hunting",2007,1,b,D,D,D,D,D
+0500000US42045,42045,"Delaware County, Pennsylvania",21,Mining ,2007,2,c,D,D,D,D,D
+0500000US42045,42045,"Delaware County, Pennsylvania",22,Utilities,2007,15,775,G,21754,G,76733,G
+0500000US42045,42045,"Delaware County, Pennsylvania",23,Construction,2007,1452,13135,G,164868,G,693759,G
+0500000US42045,42045,"Delaware County, Pennsylvania",31-33,Manufacturing,2007,420,14978,G,286333,H,1109400,H
+0500000US42045,42045,"Delaware County, Pennsylvania",42,Wholesale trade,2007,657,7740,G,128482,G,538445,G
+0500000US42045,42045,"Delaware County, Pennsylvania",44-45,Retail trade,2007,1876,27069,G,151418,G,637680,G
+0500000US42045,42045,"Delaware County, Pennsylvania",48-49,Transportation and warehousing,2007,282,8938,G,77259,G,321044,G
+0500000US42045,42045,"Delaware County, Pennsylvania",51,Information,2007,254,i,D,D,D,D,D
+0500000US42045,42045,"Delaware County, Pennsylvania",52,Finance and insurance,2007,922,14298,G,340853,G,1068375,G
+0500000US42045,42045,"Delaware County, Pennsylvania",53,Real estate and rental and leasing,2007,437,4817,G,44255,G,192989,G
+0500000US42045,42045,"Delaware County, Pennsylvania",54,"Professional, scientific, and technical services",2007,1642,12414,G,197280,G,838197,G
+0500000US42045,42045,"Delaware County, Pennsylvania",55,Management of companies and enterprises,2007,74,4558,G,108092,H,405831,G
+0500000US42045,42045,"Delaware County, Pennsylvania",56,Administrative and support and waste management and remediation services,2007,769,13637,G,96708,G,429707,G
+0500000US42045,42045,"Delaware County, Pennsylvania",61,Educational services,2007,188,11377,G,97708,G,401561,G
+0500000US42045,42045,"Delaware County, Pennsylvania",62,Health care and social assistance,2007,1552,38892,G,358092,G,1519142,G
+0500000US42045,42045,"Delaware County, Pennsylvania",71,"Arts, entertainment, and recreation",2007,191,3322,G,19136,G,87720,G
+0500000US42045,42045,"Delaware County, Pennsylvania",72,Accommodation and food services,2007,1034,15629,G,52530,G,221582,G
+0500000US42045,42045,"Delaware County, Pennsylvania",81,Other services (except public administration),2007,1394,11490,G,70222,G,292050,G
+0500000US42045,42045,"Delaware County, Pennsylvania",99,Industries not classified,2007,3,1,G,S,S,23,G
+0500000US42091,42091,"Montgomery County, Pennsylvania",00,Total for all sectors,2007,26563,477020,G,6738921,G,25680452,G
+0500000US42091,42091,"Montgomery County, Pennsylvania",11,"Agriculture, forestry, fishing and hunting",2007,13,b,S,160,G,731,G
+0500000US42091,42091,"Montgomery County, Pennsylvania",21,Mining ,2007,17,c,S,1998,H,9355,H
+0500000US42091,42091,"Montgomery County, Pennsylvania",22,Utilities,2007,20,g,D,D,D,D,D
+0500000US42091,42091,"Montgomery County, Pennsylvania",23,Construction,2007,2490,26439,G,384931,G,1750767,G
+0500000US42091,42091,"Montgomery County, Pennsylvania",31-33,Manufacturing,2007,1108,47025,G,649517,G,2650012,G
+0500000US42091,42091,"Montgomery County, Pennsylvania",42,Wholesale trade,2007,1777,28902,G,605924,G,2245967,G
+0500000US42091,42091,"Montgomery County, Pennsylvania",44-45,Retail trade,2007,3465,59242,G,359917,G,1500166,G
+0500000US42091,42091,"Montgomery County, Pennsylvania",48-49,Transportation and warehousing,2007,373,10104,G,90643,G,375833,G
+0500000US42091,42091,"Montgomery County, Pennsylvania",51,Information,2007,635,15762,G,281122,G,1039355,G
+0500000US42091,42091,"Montgomery County, Pennsylvania",52,Finance and insurance,2007,2157,38848,G,1152197,H,3525795,G
+0500000US42091,42091,"Montgomery County, Pennsylvania",53,Real estate and rental and leasing,2007,1051,9022,G,115750,G,488752,G
+0500000US42091,42091,"Montgomery County, Pennsylvania",54,"Professional, scientific, and technical services",2007,3775,47691,G,963876,G,3719776,G
+0500000US42091,42091,"Montgomery County, Pennsylvania",55,Management of companies and enterprises,2007,246,23440,H,S,S,2510792,H
+0500000US42091,42091,"Montgomery County, Pennsylvania",56,Administrative and support and waste management and remediation services,2007,1634,33832,G,309159,G,1346781,G
+0500000US42091,42091,"Montgomery County, Pennsylvania",61,Educational services,2007,389,16317,G,125181,G,499073,G
+0500000US42091,42091,"Montgomery County, Pennsylvania",62,Health care and social assistance,2007,2751,62350,G,609980,G,2657050,G
+0500000US42091,42091,"Montgomery County, Pennsylvania",71,"Arts, entertainment, and recreation",2007,357,6366,G,24329,G,122133,G
+0500000US42091,42091,"Montgomery County, Pennsylvania",72,Accommodation and food services,2007,1784,28425,G,104895,G,433062,G
+0500000US42091,42091,"Montgomery County, Pennsylvania",81,Other services (except public administration),2007,2505,20559,G,129683,G,540201,G
+0500000US42091,42091,"Montgomery County, Pennsylvania",99,Industries not classified,2007,16,a,S,S,S,454,G
+0500000US42101,42101,"Philadelphia County, Pennsylvania",00,Total for all sectors,2007,26352,586562,G,7085959,G,27241828,G
+0500000US42101,42101,"Philadelphia County, Pennsylvania",11,"Agriculture, forestry, fishing and hunting",2007,6,a,D,D,D,D,D
+0500000US42101,42101,"Philadelphia County, Pennsylvania",21,Mining ,2007,5,e,D,D,D,D,D
+0500000US42101,42101,"Philadelphia County, Pennsylvania",22,Utilities,2007,7,g,D,D,D,D,D
+0500000US42101,42101,"Philadelphia County, Pennsylvania",23,Construction,2007,1218,11717,G,164385,G,722335,G
+0500000US42101,42101,"Philadelphia County, Pennsylvania",31-33,Manufacturing,2007,934,31733,G,351373,G,1428029,G
+0500000US42101,42101,"Philadelphia County, Pennsylvania",42,Wholesale trade,2007,1153,20216,G,286804,G,1179864,G
+0500000US42101,42101,"Philadelphia County, Pennsylvania",44-45,Retail trade,2007,4514,51783,G,282857,G,1185183,G
+0500000US42101,42101,"Philadelphia County, Pennsylvania",48-49,Transportation and warehousing,2007,414,23982,H,243118,H,926263,H
+0500000US42101,42101,"Philadelphia County, Pennsylvania",51,Information,2007,463,17379,H,301699,H,1007240,H
+0500000US42101,42101,"Philadelphia County, Pennsylvania",52,Finance and insurance,2007,1567,46011,H,1131323,H,3487627,H
+0500000US42101,42101,"Philadelphia County, Pennsylvania",53,Real estate and rental and leasing,2007,1069,9820,G,107508,G,427602,G
+0500000US42101,42101,"Philadelphia County, Pennsylvania",54,"Professional, scientific, and technical services",2007,2821,50178,G,937128,G,3934507,G
+0500000US42101,42101,"Philadelphia County, Pennsylvania",55,Management of companies and enterprises,2007,140,12597,G,421687,G,1271351,G
+0500000US42101,42101,"Philadelphia County, Pennsylvania",56,Administrative and support and waste management and remediation services,2007,950,24497,G,182591,G,748843,G
+0500000US42101,42101,"Philadelphia County, Pennsylvania",61,Educational services,2007,462,66144,G,701437,H,2933128,H
+0500000US42101,42101,"Philadelphia County, Pennsylvania",62,Health care and social assistance,2007,3582,133789,G,1328706,G,5540081,G
+0500000US42101,42101,"Philadelphia County, Pennsylvania",71,"Arts, entertainment, and recreation",2007,358,9918,G,190560,G,627810,G
+0500000US42101,42101,"Philadelphia County, Pennsylvania",72,Accommodation and food services,2007,3326,47542,G,200168,G,845802,G
+0500000US42101,42101,"Philadelphia County, Pennsylvania",81,Other services (except public administration),2007,3338,27318,G,190626,G,793300,G
+0500000US42101,42101,"Philadelphia County, Pennsylvania",99,Industries not classified,2007,25,a,S,53,G,235,G

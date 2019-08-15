@@ -10,8 +10,8 @@ pack(packages)
 rm(pack, packages)
 
 #source input files
-source("AQ_daily_input.R")
-source("AQ_yearly_input.R")
+source("Scripts/Air Quality/AQ_daily_input.R")
+source("Scripts/Air Quality/AQ_yearly_input.R")
 
 #calculate violating days for yearly data
 aqiYearly$daysViolating <- (aqiYearly$daysUnhealthySensitive +
@@ -33,7 +33,7 @@ aqiYearlyFiltered$fiveYearAvg <- round(aqiYearlyFiltered$fiveYearAvg, 0)
 
 aqiYearlyFiltered %<>% filter(year >= 2000)
 
-write_csv(aqiYearlyFiltered, "../Processed Data/aq_yearly.csv")
+write_csv(aqiYearlyFiltered, "Outputs/Air Quality/aq_yearly.csv")
 
 #select quarter/year, and AQI categories for daily data, group by quarter, count AQI categories
 aqiQuarterlyOzone <- aqiDaily %>% select(quarterYear, aqiCategoryOzone) %>%
@@ -74,7 +74,7 @@ aqiQuarterFiltered %<>%
   select(quarterYear, date_label, everything())
   
 #write quarter data to csv
-write_csv(aqiQuarterFiltered, "../Processed Data/aq_quarterly.csv")
+write_csv(aqiQuarterFiltered, "Outputs/Air Quality/aq_quarterly.csv")
 
 
 

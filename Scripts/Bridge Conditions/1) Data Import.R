@@ -65,8 +65,8 @@ bridges_all <- data.frame()
 #loop over years_3 to import each year of data
 #loop selects only required variables for each state, merges the selected vehicle, and then adds to the empty data frame
 for(i in 1:length(years_3)){
-  filename_PA <- paste("../Data/Pennsylvania/PA", str_sub(years_3[i], 3, 4), ".txt", sep = "")
-  filename_NJ <- paste("../Data/New Jersey/NJ", str_sub(years_3[i], 3, 4), ".txt", sep = "")
+  filename_PA <- paste("Raw Data/Bridge Conditions/Pennsylvania/PA", str_sub(years_3[i], 3, 4), ".txt", sep = "")
+  filename_NJ <- paste("Raw Data/Bridge Conditions/New Jersey/NJ", str_sub(years_3[i], 3, 4), ".txt", sep = "")
   
   pa_temp <- read_delim(filename_PA, delim = ",", quote = "\'", escape_double = FALSE,
                         col_types = cols(.default = "c")) %>%
