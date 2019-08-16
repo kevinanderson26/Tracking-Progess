@@ -40,9 +40,9 @@ no_mortgage_names <- c("HD01_VD14" = "0.0-9.9%", "HD01_VD15" = "10.0-14.9%",
 for(i in 2005:2017){
   two_digit <- i %>% as.character() %>% str_sub(3, 4)
   if(i <= 2006){
-    filename <- paste("../Data/Renters/County/ACS_", two_digit, "_EST_B25070_with_ann.csv", sep = "")}
+    filename <- paste("Raw Data/Housing Affordability/Renters/County/ACS_", two_digit, "_EST_B25070_with_ann.csv", sep = "")}
   if(i > 2006){
-    filename <- paste("../Data/Renters/County/ACS_", two_digit, "_1YR_B25070_with_ann.csv", sep = "")}
+    filename <- paste("Raw Data/Housing Affordability//Renters/County/ACS_", two_digit, "_1YR_B25070_with_ann.csv", sep = "")}
   temp <- read_csv(filename) %>% 
     filter(GEO.id != "Id") %>%
     select(geoid = GEO.id2, co_name = 'GEO.display-label', HD01_VD02, HD01_VD03, HD01_VD04, 
@@ -56,7 +56,7 @@ for(i in 2005:2017){
 #import raw municipal renter data
 for(i in 2009:2017){
   two_digit <- i %>% as.character() %>% str_sub(3, 4)
-  filename <- paste("../Data/Renters/Municipality/ACS_", two_digit, "_5YR_B25070_with_ann.csv", sep = "")
+  filename <- paste("Raw Data/Housing Affordability//Renters/Municipality/ACS_", two_digit, "_5YR_B25070_with_ann.csv", sep = "")
   temp <- read_csv(filename) %>% 
     filter(GEO.id != "Id") %>%
     select(geoid = GEO.id2, munic_name = 'GEO.display-label', HD01_VD02, HD01_VD03, HD01_VD04, 
@@ -71,9 +71,9 @@ for(i in 2009:2017){
 for(i in 2005:2017){
   two_digit <- i %>% as.character() %>% str_sub(3, 4)
   if(i <= 2006){
-    filename <- paste("../Data/Homeowners/County/ACS_", two_digit, "_EST_B25091_with_ann.csv", sep = "")}
+    filename <- paste("Raw Data/Housing Affordability/Homeowners/County/ACS_", two_digit, "_EST_B25091_with_ann.csv", sep = "")}
   if(i > 2006){
-    filename <- paste("../Data/Homeowners/County/ACS_", two_digit, "_1YR_B25091_with_ann.csv", sep = "")}
+    filename <- paste("Raw Data/Housing Affordability/Homeowners/County/ACS_", two_digit, "_1YR_B25091_with_ann.csv", sep = "")}
   temp <- read_csv(filename) %>% 
     filter(GEO.id != "Id") %>%
     select(geoid = GEO.id2, co_name = 'GEO.display-label', HD01_VD03, HD01_VD04, HD01_VD05, 
@@ -88,9 +88,9 @@ for(i in 2005:2017){
 for(i in 2005:2017){
   two_digit <- i %>% as.character() %>% str_sub(3, 4)
   if(i <= 2006){
-    filename <- paste("../Data/Homeowners/County/ACS_", two_digit, "_EST_B25091_with_ann.csv", sep = "")}
+    filename <- paste("Raw Data/Housing Affordability/Homeowners/County/ACS_", two_digit, "_EST_B25091_with_ann.csv", sep = "")}
   if(i > 2006){
-    filename <- paste("../Data/Homeowners/County/ACS_", two_digit, "_1YR_B25091_with_ann.csv", sep = "")}
+    filename <- paste("Raw Data/Housing Affordability/Homeowners/County/ACS_", two_digit, "_1YR_B25091_with_ann.csv", sep = "")}
   temp <- read_csv(filename) %>% 
     filter(GEO.id != "Id") %>%
     select(geoid = GEO.id2, co_name = 'GEO.display-label', HD01_VD14, HD01_VD15, HD01_VD16,
@@ -104,7 +104,7 @@ for(i in 2005:2017){
 #import raw municipal owner w/ mortgage data
 for(i in 2009:2017){
   two_digit <- i %>% as.character() %>% str_sub(3, 4)
-  filename <- paste("../Data/Homeowners/Municipality/ACS_", two_digit, "_5YR_B25091_with_ann.csv", sep = "")
+  filename <- paste("Raw Data/Housing Affordability/Homeowners/Municipality/ACS_", two_digit, "_5YR_B25091_with_ann.csv", sep = "")
   temp <- read_csv(filename) %>% 
     filter(GEO.id != "Id") %>%
     select(geoid = GEO.id2, munic_name = 'GEO.display-label', HD01_VD03, HD01_VD04, HD01_VD05, 
@@ -119,7 +119,7 @@ for(i in 2009:2017){
 #import raw municipal owner w/o mortgage data
 for(i in 2009:2017){
   two_digit <- i %>% as.character() %>% str_sub(3, 4)
-  filename <- paste("../Data/Homeowners/Municipality/ACS_", two_digit, "_5YR_B25091_with_ann.csv", sep = "")
+  filename <- paste("Raw Data/Housing Affordability/Homeowners/Municipality/ACS_", two_digit, "_5YR_B25091_with_ann.csv", sep = "")
   temp <- read_csv(filename) %>% 
     filter(GEO.id != "Id") %>%
     select(geoid = GEO.id2, munic_name = 'GEO.display-label', HD01_VD14, HD01_VD15, HD01_VD16,
@@ -148,7 +148,7 @@ afford_county$subregion <- ifelse(str_detect(afford_county$geoid, "^34"), "New J
                                  "Pennsylvania Suburbs"))
 
 #add planning area field to munic table
-planning_areas <- read_excel("../Data/2045 Planning Areas.xlsx") %>% 
+planning_areas <- read_excel("Raw Data/Housing Affordability/2045 Planning Areas.xlsx") %>% 
   select(geoid = GEOID, planning_area = PA_2045)
 planning_areas$geoid %<>% as.character()
 

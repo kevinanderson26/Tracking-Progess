@@ -13,7 +13,7 @@ rm(pack, packages)
 edattain1yrACS <- NULL
 for(i in c(2007:2017)){
   
-  file_name <- paste("../Data/1-year data/ACS_", i, "_1YR_S1501.csv", sep = "")
+  file_name <- paste("Raw Data/Educational Attainment/1-year data/ACS_", i, "_1YR_S1501.csv", sep = "")
 
   if(i >= 2015){
     temp <- read_csv(file_name) %>% 
@@ -59,7 +59,7 @@ for(i in c(2007:2017)){
 }
 
 #import and format 2000 longform census data
-countyCensus2000 <- read_csv("../Data/1-year data/DEC_00_SF3_P037_with_ann.csv") %>% 
+countyCensus2000 <- read_csv("Raw Data/Educational Attainment/1-year data/DEC_00_SF3_P037_with_ann.csv") %>% 
   mutate("lessThanHS" = VD03 + VD04 + VD05 + VD06 + VD20 + VD21 + VD22 + VD23,
          "someHS" = VD07 + VD08 + VD09 + VD10 + VD24 + VD25 + VD26 + VD27, 
          "hsGrad" = VD11 + VD28, 

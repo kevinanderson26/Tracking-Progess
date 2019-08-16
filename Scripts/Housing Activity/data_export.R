@@ -10,7 +10,7 @@ pack(packages)
 rm(pack, packages)
 
 #import processed data
-source("data_processing.R")
+source("Scripts/Housing Activity/data_processing.R")
 
 #Graph 1
 permits_graph_1 <- units_ratio %>% select(year, ratio_annual, ratio_cumulative) %>%
@@ -69,8 +69,8 @@ permits_graph_3B <- unitsType %>%
          'Cumulative- Rural Area- single family', 'Cumulative- Rural Area- small multi-family', everything())
 
 #save CSVs
-write_csv(permits_graph_1, "../Processed Data/permits_graph_1.csv")
-write_csv(permits_graph_2A, "../Processed Data/permits_graph_2A.csv")
-write_csv(permits_graph_2B, "../Processed Data/permits_graph_2B.csv")
-write_csv(permits_graph_3A, "../Processed Data/permits_graph_3A.csv")
-write_csv(permits_graph_3B, "../Processed Data/permits_graph_3B.csv")
+write_csv(permits_graph_1, "Outputs/Housing Activity/permits_graph_1.csv")
+write_csv(permits_graph_2A, "Outputs/Housing Activity/permits_graph_2A.csv")
+write_csv(permits_graph_2B, "Outputs/Housing Activity/permits_graph_2B.csv")
+write_csv(permits_graph_3A, "Outputs/Housing Activity/permits_graph_3A.csv")
+write_csv(permits_graph_3B, "Outputs/Housing Activity/permits_graph_3B.csv")

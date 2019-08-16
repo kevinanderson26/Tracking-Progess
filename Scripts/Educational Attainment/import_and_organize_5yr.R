@@ -13,7 +13,7 @@ rm(pack, packages)
 edAttain5yrACS <- NULL
 for(i in 2009:2017){
   
-  file_name <- paste("../Data/5-year data/ACS_", i, "_5YR_S1501.csv", sep = "")
+  file_name <- paste("Raw Data/Educational Attainment/5-year data/ACS_", i, "_5YR_S1501.csv", sep = "")
   
   if(i >= 2015){
     temp <- read_csv(file_name) %>% 
@@ -56,7 +56,7 @@ for(i in 2009:2017){
 }
 
 #import and format 2000 longform census data
-municCensus2000 <- read_csv("../Data/5-year data/DEC_2000_SF3_P037.csv") %>%
+municCensus2000 <- read_csv("Raw Data/Educational Attainment/5-year data/DEC_2000_SF3_P037.csv") %>%
   mutate("lessThanHS" = VD03 + VD04 + VD05 + VD06 + VD20 + VD21 + VD22 + VD23,
          "someHS" = VD07 + VD08 + VD09 + VD10 + VD24 + VD25 + VD26 + VD27, 
          "hsGrad" = VD11 + VD28, 
@@ -101,7 +101,7 @@ for(i in 1:length(edattain5yr$year)){
 rm(i)
 
 #join 2045 planning areas
-planningAreas <- read_excel("../Data/2045 Planning Areas.xlsx") %>% 
+planningAreas <- read_excel("Raw Data/Educational Attainment/2045 Planning Areas.xlsx") %>% 
                  select(geoid = GEOID, planningArea = PA_2045)
 
 edattain5yr %<>% full_join(planningAreas, by = "geoid")

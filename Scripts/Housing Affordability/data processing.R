@@ -10,7 +10,7 @@ pack(packages)
 rm(pack, packages)
 
 #import raw data
-source("data import.R")
+source("Scripts/Housing Affordability/data import.R")
 
 #create region, subregion and planning area tables
 afford_region <- afford_county %>% 

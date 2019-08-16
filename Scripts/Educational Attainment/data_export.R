@@ -9,7 +9,7 @@ packages <- c("readr", "tidyr", "lubridate", "ggplot2", "tidyverse", "readxl", "
 pack(packages)
 rm(pack, packages)
 
-source("high_school_ratios.R")
+source("Scripts/Educational Attainment/high_school_ratios.R")
 
 #high school rate tables
 hsRateSpreadDVRPC <- highSchoolRatioCounty %>% filter(!geography == "United States") %>% 
@@ -68,7 +68,7 @@ rm(hsRateSpreadDVRPC, hsRateSpreadSubregion, hsRateSpreadCounty, hsRateSpreadPla
 
 #round high school rate table to two digits, export to csv
 hsRateSpread <- round(hsRateSpread, 3)
-write_csv(hsRateSpread, "../Processed Data/edattain web 1.csv")
+write_csv(hsRateSpread, "Outputs/Educational Attainment/edattain web 1.csv")
 
 #ed category table
 
@@ -119,4 +119,4 @@ edCatSpread <- edCatSpreadDVRPC %>% full_join(edCatSpreadSubregion, by = "year")
 rm(edCatSpreadDVRPC, edCatSpreadSubregion, edCatSpreadCounty, edCatSpreadPlanningArea)
 
 #export to csv
-write_csv(edCatSpread, "../Processed Data/edattain web 2.csv")
+write_csv(edCatSpread, "Outputs/Educational Attainment/edattain web 2.csv")

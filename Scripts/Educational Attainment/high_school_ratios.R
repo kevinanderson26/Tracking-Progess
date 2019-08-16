@@ -10,8 +10,8 @@ pack(packages)
 rm(pack, packages)
 
 #source import files
-source("import_and_organize_1yr.R")
-source("import_and_organize_5yr.R")
+source("Scripts/Educational Attainment/import_and_organize_1yr.R")
+source("Scripts/Educational Attainment/import_and_organize_5yr.R")
 
 #calculate percent of pop with at least high school diploma for each county
 

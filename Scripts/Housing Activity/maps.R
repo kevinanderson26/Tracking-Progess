@@ -10,8 +10,7 @@ pack(packages)
 rm(pack, packages)
 
 #import data
-source("import.R")
-source("data_processing.R")
+source("Scripts/Housing Activity/data_processing.R")
 
 municSF <- st_read("../Data/Boundary Shapefiles/munic/munic.shp") %>% left_join(permits, by = c("GEOID_10" = "geoid"))
 

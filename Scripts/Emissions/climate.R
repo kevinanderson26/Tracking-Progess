@@ -9,9 +9,6 @@ packages <- c("tidyverse", "magrittr", "readxl")
 pack(packages)
 rm(pack, packages)
 
-temperature <- read_xlsx("../Data/Climate Data.xlsx", sheet = 1)
+temperature <- read_xlsx("Raw Data/Emissions/Climate Data.xlsx", sheet = 1)
 
-precip <- read_xlsx("../Data/Climate Data.xlsx", sheet = 2)
-
-temp_PA_loess <- loess(PA ~ year, temperature)
-predict(temp_PA_loess)
+precip <- read_xlsx("Raw Data/Emissions/Climate Data.xlsx", sheet = 2)

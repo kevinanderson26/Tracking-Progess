@@ -10,7 +10,7 @@ pack(packages)
 rm(pack, packages)
 
 #import raw data
-source("import.R")
+source("Scripts/Housing Activity/import.R")
 
 #calculate annual and cumulative ratios by planning area
 denseCat <- c("Core City", "Developed Community")

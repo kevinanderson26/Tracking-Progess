@@ -20,7 +20,7 @@ permits <- data.frame(state_code = character(), place_id = character(),
 
 #input raw data, filter only for DVRPC counties
 for(i in c(1980:2018)){
-  file_name <- paste("../Data/yearly building permits/ne", i, "a.txt", sep = "")
+  file_name <- paste("Raw Data/Housing Activity/yearly building permits/ne", i, "a.txt", sep = "")
 
   if(i <= 1998){
     temp <- read_csv(file_name, skip = 2, col_names = FALSE) %>% 
@@ -79,7 +79,7 @@ for(i in 1:nrow(permits)){
   rm(i)}
 
 #join FIPS IDs
-geoid_lookup <- read_excel("../Data/GEOID lookup.xlsx") %>% 
+geoid_lookup <- read_excel("Raw Data/Housing Activity/GEOID lookup.xlsx") %>% 
   select(full_ID, GEOID)
 
 geoid_lookup$full_ID <- as.character(geoid_lookup$full_ID)
@@ -89,7 +89,7 @@ permits %<>% full_join(geoid_lookup, by = "full_ID")
 rm(geoid_lookup)
 
 #join Planning Areas
-planning_areas <- read_excel("../Data/2045 Planning Areas.xlsx") %>% 
+planning_areas <- read_excel("Raw Data/Housing Activity/2045 Planning Areas.xlsx") %>% 
   select(GEOID, planning_area = PA_2045)
 
 permits %<>% left_join(planning_areas, by = "GEOID")

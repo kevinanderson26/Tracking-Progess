@@ -10,7 +10,7 @@ pack(packages)
 rm(pack, packages)
 
 #import raw data
-source("data processing.R")
+source("Scripts/Housing Affordability/data processing.R")
 
 #graph 1: overall ratio of households paying more than 35% for housing
 ovr_ratio_county <- ratio_all %>% filter(geo_type != "planning area") %>%
@@ -167,7 +167,7 @@ housing_afford_graph_3 <- bind_cols(brackets_temp1, brackets_temp2)
 rm(brackets_region, brackets_subregion, brackets_county, brackets_planningarea, brackets_temp1, brackets_temp2)
 
 #export data
-write_csv(housing_afford_graph_1, "../Processed Data/housing_afford_graph_1.csv")
-write_csv(housing_afford_graph_2, "../Processed Data/housing_afford_graph_2.csv")
-write_csv(housing_afford_graph_3, "../Processed Data/housing_afford_graph_3.csv")
+write_csv(housing_afford_graph_1, "Outputs/Housing Affordability/housing_afford_graph_1.csv")
+write_csv(housing_afford_graph_2, "Outputs/Housing Affordability/housing_afford_graph_2.csv")
+write_csv(housing_afford_graph_3, "Outputs/Housing Affordability/housing_afford_graph_3.csv")
   
